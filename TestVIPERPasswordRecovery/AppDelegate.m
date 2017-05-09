@@ -16,7 +16,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    UIView *statusBarBackgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.window.frame), 20)];
+    statusBarBackgroundView.backgroundColor = [UIColor colorWithRed:115.f / 255.f green:33.f / 255.f blue:153.f / 255.f alpha:1];
+    [self.window addSubview:statusBarBackgroundView];
+    [self.window makeKeyAndVisible];
+    [self.window bringSubviewToFront:statusBarBackgroundView];
+    
     return YES;
 }
 

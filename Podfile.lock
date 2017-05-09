@@ -1,0 +1,45 @@
+PODS:
+  - Digits (2.8.0):
+    - TwitterCore (= 2.8.0)
+  - Fabric (1.6.11)
+  - RamblerSegues (1.1.2):
+    - RamblerSegues/Core (= 1.1.2)
+    - RamblerSegues/CrossStoryboardSegue (= 1.1.2)
+    - RamblerSegues/EmbedSegue (= 1.1.2)
+  - RamblerSegues/Core (1.1.2)
+  - RamblerSegues/CrossStoryboardSegue (1.1.2)
+  - RamblerSegues/EmbedSegue (1.1.2)
+  - RamblerTyphoonUtils/AssemblyCollector (1.5.0)
+  - TwitterCore (2.8.0):
+    - Fabric
+  - Typhoon (4.0.2):
+    - Typhoon/DeallocNotifier (= 4.0.2)
+    - Typhoon/IntrospectionUtils (= 4.0.2)
+    - Typhoon/no-arc (= 4.0.2)
+  - Typhoon/DeallocNotifier (4.0.2)
+  - Typhoon/IntrospectionUtils (4.0.2)
+  - Typhoon/no-arc (4.0.2):
+    - Typhoon/IntrospectionUtils
+  - ViperMcFlurry (1.5.2)
+
+DEPENDENCIES:
+  - Digits
+  - Fabric
+  - RamblerSegues
+  - RamblerTyphoonUtils/AssemblyCollector
+  - TwitterCore
+  - Typhoon
+  - ViperMcFlurry
+
+SPEC CHECKSUMS:
+  Digits: 401151fdcc955738142d53b89112960d3c2e3930
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  RamblerSegues: 697ae59f2fbaefac805a57fc4e61fb73ba1fd5de
+  RamblerTyphoonUtils: '08a6b5592e045a490cd4550aa9ea4a581308d482'
+  TwitterCore: e959987be23c767004d29eb7fab8d85d8585a2e5
+  Typhoon: 05db9d33d798b90c202bf3f754275c03efe93297
+  ViperMcFlurry: 701bc3ad8d188b1f1e157ec0ddf4e77184de88b5
+
+PODFILE CHECKSUM: d019cf4c7adde91e5e9e2a925e5500961d1cfbdb
+
+COCOAPODS: 1.2.1

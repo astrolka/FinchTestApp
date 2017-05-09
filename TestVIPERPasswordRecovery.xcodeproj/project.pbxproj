@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E9FD304F2EEAE93D2604382 /* VASPasswordRecoveryInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A8474B4321AB275EB28EC /* VASPasswordRecoveryInteractor.m */; };
+		36AD822AFD85BC910EC1C249 /* libPods-TestVIPERPasswordRecoveryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A16AC1A7A09F5CB6F9450190 /* libPods-TestVIPERPasswordRecoveryTests.a */; };
+		5E5E1738F1C6390720405A82 /* libPods-TestVIPERPasswordRecoveryUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1162D8FCDF03064A587AB27 /* libPods-TestVIPERPasswordRecoveryUITests.a */; };
+		778E437A92EEBD981CDCDFB8 /* VASPasswordRecoveryPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C731832B6EAA4DA47CED6F67 /* VASPasswordRecoveryPresenter.m */; };
+		C143B089CA6DCF6C107D90CA /* libPods-TestVIPERPasswordRecovery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FEAA5BBBCF027C4C8FC157 /* libPods-TestVIPERPasswordRecovery.a */; };
+		DD13F209D7D83220F38C3E79 /* VASPasswordRecoveryAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E86F70957335424BD7B4 /* VASPasswordRecoveryAssembly.m */; };
+		FA080E2E1EC0D172008FB166 /* VASRoundedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FA080E2D1EC0D172008FB166 /* VASRoundedTextField.m */; };
+		FA8DF4EE8F65C60EFC700520 /* VASPasswordRecoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C064A43ED153BDDFED86B /* VASPasswordRecoveryViewController.m */; };
 		FAD1E5F71EBF634F00091F04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD1E5F61EBF634F00091F04 /* main.m */; };
 		FAD1E5FA1EBF634F00091F04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD1E5F91EBF634F00091F04 /* AppDelegate.m */; };
-		FAD1E5FD1EBF634F00091F04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD1E5FC1EBF634F00091F04 /* ViewController.m */; };
-		FAD1E6001EBF634F00091F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD1E5FE1EBF634F00091F04 /* Main.storyboard */; };
+		FAD1E6001EBF634F00091F04 /* VASPasswordRecovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD1E5FE1EBF634F00091F04 /* VASPasswordRecovery.storyboard */; };
 		FAD1E6021EBF634F00091F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD1E6011EBF634F00091F04 /* Assets.xcassets */; };
 		FAD1E6051EBF634F00091F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD1E6031EBF634F00091F04 /* LaunchScreen.storyboard */; };
 		FAD1E6101EBF634F00091F04 /* TestVIPERPasswordRecoveryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD1E60F1EBF634F00091F04 /* TestVIPERPasswordRecoveryTests.m */; };
 		FAD1E61B1EBF634F00091F04 /* TestVIPERPasswordRecoveryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD1E61A1EBF634F00091F04 /* TestVIPERPasswordRecoveryUITests.m */; };
+		FAD1E63F1EC0A3F400091F04 /* VASPasswordRecoveryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD1E63E1EC0A3F400091F04 /* VASPasswordRecoveryViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +43,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0014D49BDDF23B25751D0E6F /* Pods-TestVIPERPasswordRecovery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVIPERPasswordRecovery.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestVIPERPasswordRecovery/Pods-TestVIPERPasswordRecovery.release.xcconfig"; sourceTree = "<group>"; };
+		0A45E86F70957335424BD7B4 /* VASPasswordRecoveryAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VASPasswordRecoveryAssembly.m; sourceTree = "<group>"; };
+		171A4466DB42AEABEB0EE4FE /* VASPasswordRecoveryInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VASPasswordRecoveryInteractorInput.h; sourceTree = "<group>"; };
+		1AEFE557D5E97EDDC93DD05E /* VASPasswordRecoveryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VASPasswordRecoveryViewController.h; sourceTree = "<group>"; };
+		31DAEC7EE2B69E9576DA13C5 /* Pods-TestVIPERPasswordRecoveryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVIPERPasswordRecoveryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestVIPERPasswordRecoveryTests/Pods-TestVIPERPasswordRecoveryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35FEAA5BBBCF027C4C8FC157 /* libPods-TestVIPERPasswordRecovery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestVIPERPasswordRecovery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		453680A2B7CE97F08248958D /* Pods-TestVIPERPasswordRecoveryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVIPERPasswordRecoveryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestVIPERPasswordRecoveryUITests/Pods-TestVIPERPasswordRecoveryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4ED9165023F10D3FAB78AB57 /* VASPasswordRecoveryAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VASPasswordRecoveryAssembly.h; sourceTree = "<group>"; };
+		5F9C064A43ED153BDDFED86B /* VASPasswordRecoveryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VASPasswordRecoveryViewController.m; sourceTree = "<group>"; };
+		671795F0497EA5D7E47E0611 /* VASPasswordRecoveryPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VASPasswordRecoveryPresenter.h; sourceTree = "<group>"; };
+		99C74F3EC5092E21CBCEF4E9 /* Pods-TestVIPERPasswordRecoveryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVIPERPasswordRecoveryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestVIPERPasswordRecoveryTests/Pods-TestVIPERPasswordRecoveryTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DC8F6F4BD8BC7195C815F41 /* VASPasswordRecoveryInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VASPasswordRecoveryInteractor.h; sourceTree = "<group>"; };
+		9E18EDDED4B7BFEE5CF4A6FA /* VASPasswordRecoveryViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VASPasswordRecoveryViewOutput.h; sourceTree = "<group>"; };
+		A16AC1A7A09F5CB6F9450190 /* libPods-TestVIPERPasswordRecoveryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestVIPERPasswordRecoveryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51D1849D4BD34BAF6C8472C /* VASPasswordRecoveryInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VASPasswordRecoveryInteractorOutput.h; sourceTree = "<group>"; };
+		C5CDB7B97E6ED99C9531EC5C /* Pods-TestVIPERPasswordRecovery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVIPERPasswordRecovery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestVIPERPasswordRecovery/Pods-TestVIPERPasswordRecovery.debug.xcconfig"; sourceTree = "<group>"; };
+		C731832B6EAA4DA47CED6F67 /* VASPasswordRecoveryPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VASPasswordRecoveryPresenter.m; sourceTree = "<group>"; };
+		CFFBFA6B57FD9F28321CE4BA /* VASPasswordRecoveryViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VASPasswordRecoveryViewInput.h; sourceTree = "<group>"; };
+		DC8A8474B4321AB275EB28EC /* VASPasswordRecoveryInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VASPasswordRecoveryInteractor.m; sourceTree = "<group>"; };
+		F1162D8FCDF03064A587AB27 /* libPods-TestVIPERPasswordRecoveryUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestVIPERPasswordRecoveryUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BBA612416070235479F764 /* VASPasswordRecoveryModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VASPasswordRecoveryModuleInput.h; sourceTree = "<group>"; };
+		FA080E2C1EC0D172008FB166 /* VASRoundedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VASRoundedTextField.h; sourceTree = "<group>"; };
+		FA080E2D1EC0D172008FB166 /* VASRoundedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VASRoundedTextField.m; sourceTree = "<group>"; };
 		FAD1E5F21EBF634F00091F04 /* TestVIPERPasswordRecovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVIPERPasswordRecovery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD1E5F61EBF634F00091F04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAD1E5F81EBF634F00091F04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAD1E5F91EBF634F00091F04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FAD1E5FB1EBF634F00091F04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAD1E5FC1EBF634F00091F04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FAD1E5FF1EBF634F00091F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD1E5FF1EBF634F00091F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VASPasswordRecovery.storyboard; sourceTree = "<group>"; };
 		FAD1E6011EBF634F00091F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD1E6041EBF634F00091F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD1E6061EBF634F00091F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +80,9 @@
 		FAD1E6161EBF634F00091F04 /* TestVIPERPasswordRecoveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestVIPERPasswordRecoveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD1E61A1EBF634F00091F04 /* TestVIPERPasswordRecoveryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVIPERPasswordRecoveryUITests.m; sourceTree = "<group>"; };
 		FAD1E61C1EBF634F00091F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD1E63D1EC0A3F400091F04 /* VASPasswordRecoveryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VASPasswordRecoveryViewModel.h; sourceTree = "<group>"; };
+		FAD1E63E1EC0A3F400091F04 /* VASPasswordRecoveryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VASPasswordRecoveryViewModel.m; sourceTree = "<group>"; };
+		FD1293DD65323ACB4A11BF5E /* Pods-TestVIPERPasswordRecoveryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVIPERPasswordRecoveryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestVIPERPasswordRecoveryUITests/Pods-TestVIPERPasswordRecoveryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C143B089CA6DCF6C107D90CA /* libPods-TestVIPERPasswordRecovery.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36AD822AFD85BC910EC1C249 /* libPods-TestVIPERPasswordRecoveryTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +106,108 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5E1738F1C6390720405A82 /* libPods-TestVIPERPasswordRecoveryUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FCF6387EC2A46F036009E06 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				171A4466DB42AEABEB0EE4FE /* VASPasswordRecoveryInteractorInput.h */,
+				A51D1849D4BD34BAF6C8472C /* VASPasswordRecoveryInteractorOutput.h */,
+				9DC8F6F4BD8BC7195C815F41 /* VASPasswordRecoveryInteractor.h */,
+				DC8A8474B4321AB275EB28EC /* VASPasswordRecoveryInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3117CF92CFF25DD66CA9C321 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5CDB7B97E6ED99C9531EC5C /* Pods-TestVIPERPasswordRecovery.debug.xcconfig */,
+				0014D49BDDF23B25751D0E6F /* Pods-TestVIPERPasswordRecovery.release.xcconfig */,
+				31DAEC7EE2B69E9576DA13C5 /* Pods-TestVIPERPasswordRecoveryTests.debug.xcconfig */,
+				99C74F3EC5092E21CBCEF4E9 /* Pods-TestVIPERPasswordRecoveryTests.release.xcconfig */,
+				FD1293DD65323ACB4A11BF5E /* Pods-TestVIPERPasswordRecoveryUITests.debug.xcconfig */,
+				453680A2B7CE97F08248958D /* Pods-TestVIPERPasswordRecoveryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41D44DA5E67C74B7251D0E35 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				4ED9165023F10D3FAB78AB57 /* VASPasswordRecoveryAssembly.h */,
+				0A45E86F70957335424BD7B4 /* VASPasswordRecoveryAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		60C11D89B7DD41A55EE62780 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFFBFA6B57FD9F28321CE4BA /* VASPasswordRecoveryViewInput.h */,
+				9E18EDDED4B7BFEE5CF4A6FA /* VASPasswordRecoveryViewOutput.h */,
+				1AEFE557D5E97EDDC93DD05E /* VASPasswordRecoveryViewController.h */,
+				5F9C064A43ED153BDDFED86B /* VASPasswordRecoveryViewController.m */,
+				FAD1E5FE1EBF634F00091F04 /* VASPasswordRecovery.storyboard */,
+				FA080E2F1EC0D93B008FB166 /* HelperViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C781935367AB4C632292010 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35FEAA5BBBCF027C4C8FC157 /* libPods-TestVIPERPasswordRecovery.a */,
+				A16AC1A7A09F5CB6F9450190 /* libPods-TestVIPERPasswordRecoveryTests.a */,
+				F1162D8FCDF03064A587AB27 /* libPods-TestVIPERPasswordRecoveryUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F8D4FD6D8104BC82D7BAD5E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F8BBA612416070235479F764 /* VASPasswordRecoveryModuleInput.h */,
+				671795F0497EA5D7E47E0611 /* VASPasswordRecoveryPresenter.h */,
+				C731832B6EAA4DA47CED6F67 /* VASPasswordRecoveryPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		96C227F6C983C46A3ACBC90B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9BB3D1DEB3D5F0794915B3B8 /* PasswordRecovery */ = {
+			isa = PBXGroup;
+			children = (
+				41D44DA5E67C74B7251D0E35 /* Assembly */,
+				60C11D89B7DD41A55EE62780 /* View */,
+				7F8D4FD6D8104BC82D7BAD5E /* Presenter */,
+				0FCF6387EC2A46F036009E06 /* Interactor */,
+				96C227F6C983C46A3ACBC90B /* Router */,
+				FAD1E6401EC0A40000091F04 /* Model */,
+			);
+			path = PasswordRecovery;
+			sourceTree = "<group>";
+		};
+		FA080E2F1EC0D93B008FB166 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				FA080E2C1EC0D172008FB166 /* VASRoundedTextField.h */,
+				FA080E2D1EC0D172008FB166 /* VASRoundedTextField.m */,
+			);
+			name = HelperViews;
+			sourceTree = "<group>";
+		};
 		FAD1E5E91EBF634F00091F04 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +215,8 @@
 				FAD1E60E1EBF634F00091F04 /* TestVIPERPasswordRecoveryTests */,
 				FAD1E6191EBF634F00091F04 /* TestVIPERPasswordRecoveryUITests */,
 				FAD1E5F31EBF634F00091F04 /* Products */,
+				3117CF92CFF25DD66CA9C321 /* Pods */,
+				7C781935367AB4C632292010 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +235,7 @@
 			children = (
 				FAD1E5F81EBF634F00091F04 /* AppDelegate.h */,
 				FAD1E5F91EBF634F00091F04 /* AppDelegate.m */,
-				FAD1E5FB1EBF634F00091F04 /* ViewController.h */,
-				FAD1E5FC1EBF634F00091F04 /* ViewController.m */,
-				FAD1E5FE1EBF634F00091F04 /* Main.storyboard */,
+				9BB3D1DEB3D5F0794915B3B8 /* PasswordRecovery */,
 				FAD1E6011EBF634F00091F04 /* Assets.xcassets */,
 				FAD1E6031EBF634F00091F04 /* LaunchScreen.storyboard */,
 				FAD1E6061EBF634F00091F04 /* Info.plist */,
@@ -140,6 +270,23 @@
 			path = TestVIPERPasswordRecoveryUITests;
 			sourceTree = "<group>";
 		};
+		FAD1E6401EC0A40000091F04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAD1E6411EC0A40F00091F04 /* ViewModel */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FAD1E6411EC0A40F00091F04 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAD1E63D1EC0A3F400091F04 /* VASPasswordRecoveryViewModel.h */,
+				FAD1E63E1EC0A3F400091F04 /* VASPasswordRecoveryViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +294,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD1E61F1EBF634F00091F04 /* Build configuration list for PBXNativeTarget "TestVIPERPasswordRecovery" */;
 			buildPhases = (
+				91D56FC95089543A48C60453 /* [CP] Check Pods Manifest.lock */,
 				FAD1E5EE1EBF634F00091F04 /* Sources */,
 				FAD1E5EF1EBF634F00091F04 /* Frameworks */,
 				FAD1E5F01EBF634F00091F04 /* Resources */,
+				891EA110FD88635D66E66253 /* [CP] Embed Pods Frameworks */,
+				A604D1C3676BB0DA3753230E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +314,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD1E6221EBF634F00091F04 /* Build configuration list for PBXNativeTarget "TestVIPERPasswordRecoveryTests" */;
 			buildPhases = (
+				65EEBA4BC3BEF5392429ECE1 /* [CP] Check Pods Manifest.lock */,
 				FAD1E6071EBF634F00091F04 /* Sources */,
 				FAD1E6081EBF634F00091F04 /* Frameworks */,
 				FAD1E6091EBF634F00091F04 /* Resources */,
+				29002A707CE15C4490DE44AA /* [CP] Embed Pods Frameworks */,
+				DE43DECFED91C382FCF8587A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +335,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD1E6251EBF634F00091F04 /* Build configuration list for PBXNativeTarget "TestVIPERPasswordRecoveryUITests" */;
 			buildPhases = (
+				63E2DA59B3A0D87E92720521 /* [CP] Check Pods Manifest.lock */,
 				FAD1E6121EBF634F00091F04 /* Sources */,
 				FAD1E6131EBF634F00091F04 /* Frameworks */,
 				FAD1E6141EBF634F00091F04 /* Resources */,
+				496D2CD5C8A034DE42B7AE4B /* [CP] Embed Pods Frameworks */,
+				DAF5FA99DCB7102B0CB2B2BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,7 +407,7 @@
 			files = (
 				FAD1E6051EBF634F00091F04 /* LaunchScreen.storyboard in Resources */,
 				FAD1E6021EBF634F00091F04 /* Assets.xcassets in Resources */,
-				FAD1E6001EBF634F00091F04 /* Main.storyboard in Resources */,
+				FAD1E6001EBF634F00091F04 /* VASPasswordRecovery.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +427,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29002A707CE15C4490DE44AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestVIPERPasswordRecoveryTests/Pods-TestVIPERPasswordRecoveryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		496D2CD5C8A034DE42B7AE4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestVIPERPasswordRecoveryUITests/Pods-TestVIPERPasswordRecoveryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63E2DA59B3A0D87E92720521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65EEBA4BC3BEF5392429ECE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		891EA110FD88635D66E66253 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestVIPERPasswordRecovery/Pods-TestVIPERPasswordRecovery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D56FC95089543A48C60453 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A604D1C3676BB0DA3753230E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestVIPERPasswordRecovery/Pods-TestVIPERPasswordRecovery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF5FA99DCB7102B0CB2B2BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestVIPERPasswordRecoveryUITests/Pods-TestVIPERPasswordRecoveryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE43DECFED91C382FCF8587A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestVIPERPasswordRecoveryTests/Pods-TestVIPERPasswordRecoveryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAD1E5EE1EBF634F00091F04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD1E5FD1EBF634F00091F04 /* ViewController.m in Sources */,
 				FAD1E5FA1EBF634F00091F04 /* AppDelegate.m in Sources */,
+				FAD1E63F1EC0A3F400091F04 /* VASPasswordRecoveryViewModel.m in Sources */,
 				FAD1E5F71EBF634F00091F04 /* main.m in Sources */,
+				DD13F209D7D83220F38C3E79 /* VASPasswordRecoveryAssembly.m in Sources */,
+				FA8DF4EE8F65C60EFC700520 /* VASPasswordRecoveryViewController.m in Sources */,
+				778E437A92EEBD981CDCDFB8 /* VASPasswordRecoveryPresenter.m in Sources */,
+				2E9FD304F2EEAE93D2604382 /* VASPasswordRecoveryInteractor.m in Sources */,
+				FA080E2E1EC0D172008FB166 /* VASRoundedTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,12 +613,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FAD1E5FE1EBF634F00091F04 /* Main.storyboard */ = {
+		FAD1E5FE1EBF634F00091F04 /* VASPasswordRecovery.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FAD1E5FF1EBF634F00091F04 /* Base */,
 			);
-			name = Main.storyboard;
+			name = VASPasswordRecovery.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		FAD1E6031EBF634F00091F04 /* LaunchScreen.storyboard */ = {
@@ -423,6 +723,7 @@
 		};
 		FAD1E6201EBF634F00091F04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CDB7B97E6ED99C9531EC5C /* Pods-TestVIPERPasswordRecovery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 734U73WU5K;
@@ -435,6 +736,7 @@
 		};
 		FAD1E6211EBF634F00091F04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0014D49BDDF23B25751D0E6F /* Pods-TestVIPERPasswordRecovery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 734U73WU5K;
@@ -447,6 +749,7 @@
 		};
 		FAD1E6231EBF634F00091F04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31DAEC7EE2B69E9576DA13C5 /* Pods-TestVIPERPasswordRecoveryTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 734U73WU5K;
@@ -460,6 +763,7 @@
 		};
 		FAD1E6241EBF634F00091F04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C74F3EC5092E21CBCEF4E9 /* Pods-TestVIPERPasswordRecoveryTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 734U73WU5K;
@@ -473,6 +777,7 @@
 		};
 		FAD1E6261EBF634F00091F04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD1293DD65323ACB4A11BF5E /* Pods-TestVIPERPasswordRecoveryUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 734U73WU5K;
 				INFOPLIST_FILE = TestVIPERPasswordRecoveryUITests/Info.plist;
@@ -485,6 +790,7 @@
 		};
 		FAD1E6271EBF634F00091F04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453680A2B7CE97F08248958D /* Pods-TestVIPERPasswordRecoveryUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 734U73WU5K;
 				INFOPLIST_FILE = TestVIPERPasswordRecoveryUITests/Info.plist;
@@ -514,6 +820,7 @@
 				FAD1E6211EBF634F00091F04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAD1E6221EBF634F00091F04 /* Build configuration list for PBXNativeTarget "TestVIPERPasswordRecoveryTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +829,7 @@
 				FAD1E6241EBF634F00091F04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAD1E6251EBF634F00091F04 /* Build configuration list for PBXNativeTarget "TestVIPERPasswordRecoveryUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +838,7 @@
 				FAD1E6271EBF634F00091F04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
